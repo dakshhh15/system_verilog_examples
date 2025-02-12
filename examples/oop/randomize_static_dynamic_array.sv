@@ -1,5 +1,5 @@
 class packet;
-  rand byte array [4];
+  rand bit [4:0] [2:0] array [2];
   rand byte array2 [];
 
   constraint a2 { array2.size() > 2; array2.size() < 10; }
