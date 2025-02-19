@@ -17,7 +17,7 @@ class scoreboard;
         mon2sb.get(trans);
         trans.display(" SB ");
         
-        if (trans.q == trans.d & (~vint.rst) )
+        if (trans.q == (trans.d & (~vint.rst)) )
           begin
             $display (" MATCH ");
             $display ("------------");
