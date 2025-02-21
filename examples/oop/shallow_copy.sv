@@ -40,10 +40,10 @@ module tb;
       p1.display("p1");
       p2.display("p2");
       
-      //p1.adr = 32'habcd_ef12;
-      //p1.d = 32'h5a5a_5a5a;
-      //p1.hdr.id = 17;
-      p1 = new (32'habcdef12, 32'h5a5a5a5a, 17);
+      p2.address = 32'haabbccdd;
+      p2.data = 32'h5a5a5a5a;
+      p2.hdr.id = 17;
+      
       p1.display ("p1");
       p2.display ("p2");
     end
